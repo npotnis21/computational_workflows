@@ -1,12 +1,29 @@
-<index.html>
 <html>
-<head>
-<title>Hello World!</title>
-</head>
-<body>
-
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-
-</body>
-</html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <title>Broken Things NY</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <iframe
+            width="600"
+            height="450"
+            style="border:0"
+            loading="lazy"
+            allowfullscreen
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps/embed/v1/place?key=API_KEY
+            &q=Space+Needle,Seattle+WA">
+        </iframe>
+            
+    <div class="ny-form">
+    <form>
+        <input type ="text" class="input-field" placeholder="Your Name">
+        <input type ="text" class="input-field" placeholder="Email">
+        <input type ="text" class="input-field" placeholder="Broken Thing">
+        <input type ="text" class="input-field textarea-field" placeholder="Location of Problem">
+        <textarea type="text" class="input-field textarea-field" placeholder="The problem"></textarea>
+    <button type ="button" class="btn">Send Issue</button>
+    </form>
+    </body>
+</html> 
